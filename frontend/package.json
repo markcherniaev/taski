@@ -2,7 +2,7 @@
   "name": "frontend",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://127.0.0.1:8000",
+  "proxy": "http://backend:8000",
   "jest": {
     "moduleNameMapper": {
       "axios": "axios/dist/node/axios.cjs"
@@ -18,7 +18,8 @@
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "reactstrap": "^9.1.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+	"http-proxy-middleware": "^2.0.6"
   },
   "scripts": {
     "start": "react-scripts start",
